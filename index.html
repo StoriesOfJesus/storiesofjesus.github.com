@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Experimental Page Layout Inspired by Flipboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="description" content="Experimental Page Layout Inspired by Flipboard" />
+        <meta name="keywords" content="flip, pages, flipboard, layout, responsive, web, web design, grid, ipad, jquery, css3, 3d, perspective, transitions, transform" />
+        <meta name="author" content="" />
+        <!--<link rel="shortcut icon" href="../favicon.ico"> -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/modernizr.custom.08464.js"></script>
+		<script id="pageTmpl" type="text/x-jquery-tmpl">
+			<div class="${theClass}" style="${theStyle}">
+				<div class="front">
+					<div class="outer">
+						<div class="content" style="${theContentStyleFront}">
+							<div class="inner">{{html theContentFront}}</div>
+						</div>
+					</div>
+				</div>
+				<div class="back">
+					<div class="outer">
+						<div class="content" style="${theContentStyleBack}">
+							<div class="inner">{{html theContentBack}}</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</script>
+    </head>
+    <body class="back-ground-picture">
+        <audio id="audio-player" autoplay loop src="./audio/C400004FZ2e43F8lep.mp3"></audio>
+		<header class="main-title">
+			<h1>Stories about Jesus <br/><strong class="page-board-sentence">Love Forever</strong></h1>
+			<p>Swipe or drag to flip the pages, click to open items </p>
+			<p class="page-board-sentence"><strong>For God so loved the world, <br/>that he gave his only begotten Son, <br/>that whosoever believeth in him should not perish, <br/>but have everlasting life.</strong></p>
+		</header>
+		
+		<div id="flip" class="container">
+		
+			<div class="f-page f-cover">
+				<div class="cover-elements">
+					<div class="f-cover-story"><span>Cover Story</span>Jesus is Sheepherder</div>
+				</div>
+				<div class="f-cover-flip">&lt; Flip</div>
+			</div>
+			
+			<div class="f-page">
+				<div class="f-title">
+					<a href="#">page 1</a>
+					<h2>New Testament Stories</h2>
+					<a href="#">page 2</a>
+				</div>
+				<div class="box w-25 h-70">
+					<div class="img-cont img-1"></div>
+					<h3>
+						Birth of Jesus
+						<a class="content-title">[more]</a>
+						<span>only son of God</span>
+					</h3>
+					<p>
+                        Long ago, about 2000 years,God sent an angel to a young lady named Mary. The angel told her she would have a baby and that the baby would be God's Son. The angel said God's Son would save all who trusted Him from their sins. Mary was very happy.
+                        Just before the Baby was to be born, Mary and Joseph, who was to be Mary's husband, had to go to Bethlehem. But Bethlehem was so crowded that the only place they could find to sleep was in a stable for animals.
+                        That night, baby Jesus, God's Son, was born.
+                        An angel appeared to shepherds in nearby fields. The angel told them that the Son of God had been born that night. He told them they would find the baby in a manger in Bethlehem.
+                        Suddenly there were angels everywhere, praising God and saying, "Glory to God in heaven, and peace to all people who love Him!"
+                        The shepherds immediately went to Bethlehem to see the Baby.
+                        And then they told everyone about the things they had heard and seen!
+                        After Jesus was born, three wise men arrived in Jerusalem. They had followed the star from their country far, far away.
+                        "We are looking for the baby who was born to be king of the Jews," they said. "We want to worship Him."
+                        They were told they would find the baby in Bethlehem. So they traveled to Bethlehem and the Star continued to lead them.
+                        When the three wise men found the baby Jesus with His mother, they fell to their knees and worshiped Him.
+                        They gave Him gifts of gold and frankincense and myrrh.Then the wisemen left and returned to their own country.
+                        People knowing that they had seen the child who would one day save all people.
+                    </p>
+				</div>
+				<div class="box w-50 h-70 box-b-l box-b-r">
+					<div class="img-cont img-2"></div>
+					<h3>
+                        Baptism of Jesus by John
+						<a class="content-title">[more]</a>
+						<span>Baptism of Jesus by John</span>
+					</h3>
+					<p>
+                        John the Baptist was God's appointed messenger. Before Jesus began his ministry, John had been announcing to the people throughout the regions of Jerusalem and Judea to prepare for the coming Messiah. He was calling them to repent, turn from their sins, and be baptized. He was pointing the way to Jesus. Then, all of a sudden, Jesus appeared on the scene. Jesus came to John to be baptized, but John told him, "I need to be baptized by you." John himself wondered why Jesus asked to be baptized.
+                        So Jesus replied, "Let it be so now; it is proper for us to do this to fulfill all righteousness." John then consented and baptized Jesus. As Jesus came up out of the water, heaven opened, and the Spirit of God, like a dove, descended upon him. Witnesses to the baptism heard a voice from heaven saying, "This is my son, whom I love; with him I am well pleased."
+                    </p>
+				</div>
+				<div class="box w-25 h-70">
+					<div class="img-cont img-3"></div>
+					<h3>
+                        The Temptation of Jesus
+						<a class="content-title">[more]</a>
+						<span>Jesus Christ was led into the wilderness by the Holy Spirit</span>
+					</h3>
+					<p>
+                        After his baptism by John the Baptist, Jesus Christ was led into the wilderness by the Holy Spirit, to be tempted by the Devil. Jesus fasted there 40 days.
+                        Satan said, "If you are the Son of God, command this stone to become bread." (Luke 4:3, ESV) Jesus replied with Scripture, telling Satan man does not live by bread alone.
+                        Then Satan took Jesus up and showed him all the kingdoms of the world, saying they were all under the Devil's control. He promised Jesus to give them to him, if Jesus would fall down and worship him.
+                        Again Jesus quoted from the Bible: "You shall worship the Lord your God and him only shall you serve." (Deuteronomy 6:13)
+                        In the third temptation, Satan took Jesus to the highest point of the temple in Jerusalem and dared him to throw himself down. The Devil quoted Psalm 91:11-12, misusing the verses to imply that angels would protect Jesus.
+                        Jesus came back with Deuteronomy 6:16: "You shall not put the Lord your God to the test." (ESV)
+                        Seeing that he could not defeat Jesus, the Devil left him. Then angels came and ministered to the Lord.
+                    </p>
+				</div>
+				<div class="box w-50 h-30 box-b-r title-top">
+					<h3>
+                        Jesus in the Temple
+						<a class="content-title">[more]</a>
+						<span>Jesus in God's House</span>
+					</h3>
+					<p>
+                        When Jesus was about 12 years old He went with His family to Jerusalem to celebrate the Passover festival.
+                        As they were returning to Nazareth with the caravan, Mary and Joseph discovered that Jesus was missing!
+                        They returned to Jerusalem and looked and looked for Him.
+                        After 3 days they finally found Jesus in the Temple, sitting with the teachers, listening and asking questions.
+                        All who heard Him were amazed at His understanding of the Bible and God.
+                        Jesus' mother said, "Son, we were so worried. We have been looking and looking for you."
+                        And Jesus said,"Why were you looking for me? Didn't you know I had to be in my Father's house?"
+                        But He left with them and returned to Nazareth, where He continued to obey His parents and to grow in God's love.
+                    </p>
+				</div>
+				<div class="box w-50 h-30 title-top">
+					<h3>
+                        Jesus Calls His Helpers
+						<a class="content-title">[more]</a>
+						<span>Jesus's 12 Helpers</span>
+					</h3>
+					<p>
+                        One day Jesus was teaching many people near a lake. There were so many people that they were almost falling into the water!
+                        Jesus asked a fisherman named Simon to take Him out in his boat a little way into the lake so He could preach from out there.
+                        After Jesus finished speaking, He told Simon and his partners to let down their nets to catch some fish.
+                        When they pulled up their nets they were FULL of fish, even though they had fished all night and caught nothing!
+                        Simon and his partners James and John were amazed and a little scared. Simon bowed down to Jesus. But Jesus said, "Don't be afraid, come with me and I will make you fishers of men."
+                        Later on Jesus asked 9 more men to be His special helpers. Jesus knew these 12 men could help Him "catch people" and teach them about God's love.
+                        And these twelve special helpers, called the Apostles, left everything and followed Him.
+                    </p>
+				</div>
+			</div>
+			
+			<div class="f-page">
+				<div class="f-title">
+					<a href="#">page 3</a>
+					<h2>New Testament Stories</h2>
+					<a href="#">page 4</a>
+				</div>
+				<div class="box w-70 h-50 box-b-r title-top box-img-left">
+					<div class="img-cont img-4"></div>
+					<h3>
+                        Woman at the Well
+						<a class="content-title">[more]</a>
+						<span>get living water from Jesus Christ</span>
+					</h3>
+					<p>
+                        Traveling from Jerusalem in the south to Galilee in the north, Jesus and his disciples took the quickest route, through Samaria. Tired and thirsty, Jesus sat by Jacob's Well, while his disciples went to the village of Sychar, about a half mile away, to buy food. It was about noon, the hottest part of the day, and a Samaritan woman came to the well at this inconvenient time, to draw water.
+                        In his encounter with the woman at the well, Jesus broke three Jewish customs: first, he spoke to a woman; second, she was a Samaritan woman, a group the Jews traditionally despised; and third, he asked her to get him a drink of water, which would have made him ceremonially unclean from using her cup or jar. This shocked the woman at the well.
+                        Then Jesus told the woman he could give her "living water" so that she would never thirst again. Jesus used the words living water to refer to eternal life, the gift that would satisfy her soul's desire only available through him. At first, the Samaritan woman did not fully understand Jesus' meaning.
+                        Although they had never met before, Jesus revealed that he knew she had had five husbands and was now living with a man who was not her husband. Jesus now had her attention!
+                        As they talked about their two views on worship, the woman voiced her faith that Messiah was coming. Jesus answered, "I who speak to you am he." (John 4:26, ESV)
+                        As the woman began to grasp the reality of her encounter with Jesus, the disciples returned. They were equally shocked to find him speaking to a woman. Leaving behind her water jar, the woman returned to town, inviting the people to "Come, see a man who told me all that I ever did." (John 4:29, ESV)
+                        Meanwhile, Jesus told his disciples the harvest of souls was ready, sown by the prophets, writers of the Old Testament, and John the Baptist.
+                        Excited by what the woman told them, the Samaritans came from Sychar and begged Jesus to stay with them.
+                        So Jesus stayed two days, teaching the Samaritan people about the Kingdom of God. When he left, the people told the woman, "... we have heard for ourselves, and we know that this is indeed the Savior of the world."
+                    </p>
+				</div>
+				<div class="box w-30 h-50">
+					<div class="img-cont img-5"></div>
+					<h3>
+                        Jesus Feeds 5000
+						<a class="content-title">[more]</a>
+						<span>Jesus Feeds 5000</span>
+					</h3>
+					<p>
+                        While going about his ministry, Jesus Christ received some terrible news. John the Baptist, his friend, kinsman, and the prophet who proclaimed him as the Messiah, had been beheaded by Herod Antipas, ruler of Galilee and Perea.
+                        Jesus' 12 disciples had just returned from a missionary journey he had sent them on. After they told him all they had done and taught, he took them with him in a boat on the Sea of Galilee to a remote place, for rest and prayer.
+                        Great crowds of people in the area heard that Jesus was near. They ran to see him, bringing their sick friends and relatives. When the boat landed, Jesus saw all the men, women and children and had compassion on them. He taught them about the Kingdom of God and healed those who were sick.
+                        Looking at the crowd, which numbered about 5,000 men, not counting women and children, Jesus asked his disciple Philip, "Where shall we buy bread for these people to eat?" (John 6:5, NIV) Jesus knew what he was going to do, but he asked Philip to test him. Philip replied that even eight months' wages would not be enough to give each person even one bite of bread.
+                        Andrew, Simon Peter's brother, had more faith in Jesus. He brought forward a young boy who had five small loaves of barley bread and two small fish. Even so, Andrew wondered how that could help.
+                        Jesus ordered the crowd to sit down in groups of fifty. He took the five loaves, looked up to heaven, gave thanks to God his Father, and passed them to his disciples to be distributed. He did the same with the two fish.
+                        Everyone—men, women and children—ate as much as they wanted! Jesus miraculously multiplied the loaves and fishes so there was more than enough. Then he told his disciples to gather the leftovers so nothing was wasted. They collected enough to fill 12 baskets.
+                        The crowd was so overwhelmed by this miracle that they understood Jesus was the prophet who had been promised. Knowing they would want to force him to become their king, Jesus fled from them.
+                    </p>
+				</div>
+				<div class="box w-30 h-50 box-b-r title-top">
+					<h3>
+                        The Man from the Roof
+						<a class="content-title">[more]</a>
+						<span>Jesus Health the Disable Man</span>
+					</h3>
+					<p>
+                        One day Jesus was teaching many people in His home. It was so crowded, no one else could even get in the door!
+                        Four men had brought their friend who was paralyzed, so Jesus could heal him. But they couldn't get in.
+                        So they climbed to the roof, dug an opening, and lowered their friend down to Jesus.
+                        Jesus saw how much they trusted Him. He told the man, "Arise and go home." And instantly the man could walk!
+                        And all the people in the house were amazed and praised God!
+                    </p>
+				</div>
+				<div class="box w-70 h-50 title-top box-img-left">
+					<div class="img-cont img-6"></div>
+					<h3>
+                        The Lost Sheep
+						<a class="content-title">[more]</a>
+						<span>Jesus loves everyone</span>
+					</h3>
+					<p>
+                        The parable of the Lost Sheep, taught by Jesus Christ, is one of the most beloved stories in the Bible, a favorite for Sunday school classes because of its simplicity and poignancy.
+                        Speaking to a group of tax collectors, "sinners", Pharisees, and teachers of the law, Jesus asks them to imagine that they had a hundred sheep and one of them strayed. A shepherd would leave the ninety-nine sheep and search for the lost one until he found it. Then he would put it on his shoulders with joy, take it home, and tell his friends and neighbors to rejoice with him, because he had found his lost sheep.
+                        Jesus concludes that there will be more rejoicing in heaven over one sinner who repents than over ninety-nine righteous people who do not need to repent.
+                        But the lesson doesn't end there. Jesus goes on to tell another parable of a woman who loses a coin and searches her home until she finds it (Luke 15:8-10). He follows with yet another parable, that of the lost or prodigal son, the stunning message that every repentant sinner is forgiven and welcomed home by God.
+                    </p>
+				</div>
+			</div>
+			
+			<div class="f-page">
+				<div class="f-title">
+					<a href="#">page 5</a>
+					<h2>New Testament Stories</h2>
+					<a href="#">page 6</a>
+				</div>
+				<div class="box w-30 h-60 box-b-r title-top">
+					<h3>
+                        Lazarus - Death Has No Victory
+						<a class="content-title">[more]</a>
+						<span>Jesus Gave Lazarus Everlasting Life</span>
+					</h3>
+					<p>
+                        One day Jesus got a message that Lazarus, the brother of His good friends Mary and Martha, was dying.
+                        Jesus did not go to Lazarus right away, and Lazarus died. Jesus knew that this was the will of God. He knew that God was going to use the death of Lazarus to help people understand about God's love and power.
+                        Four days later, Jesus arrived and Martha met Him on the road. She was angry at Jesus because He had not been there to save her brother from death.
+                        Jesus told Martha, "I am the resurrection and the life Anyone who lives and believes in me, even though they are dead, yet shall they live."
+                        Martha did not yet understand what Jesus was about to do. She thought Jesus meant that Lazarus would come back to life at the end of time, when everyone who believed in God would be brought back to life.
+                        Jesus told them to remove the rock from the grave. Then He commanded, "Lazarus, come forth!"
+                        Lazarus, even though he was dead and in the grave, came to life and walked toward the voice of his friend and Lord. All the people there that day saw that Jesus was the true resurrection and the life and many knew that He was the Son of God. They would never fear death again.
+                        In the days to come, Jesus had dinner with Mary, Martha and Lazarus. And all of them rejoiced and gave glory to God.
+
+                    </p>
+				</div>
+				<div class="box w-70 h-60 box-img-left title-top">
+					<div class="img-cont img-7"></div>
+					<h3>
+                        Jesus and the Little Children
+						<a class="content-title">[more]</a>
+						<span>I tell you the truth, anyone who will not receive the kingdom of God like a little child will never enter it.</span>
+					</h3>
+					<p>
+                        Jesus Christ and his apostles had left Capernaum and crossed into the region of Judea, on his final journey toward Jerusalem.
+                        In a village, a lost of people went to listen Jesus's words, people began bringing their little children to Jesus to have him bless them or pray for them.
+                        However, the disciples rebuked the parents, telling them not to bother Jesus.
+                        Jesus Christ told the Nephites to bring their little children to him. The children sat on the ground near Jesus.
+                        Jesus told the people to kneel down. Then he knelt and prayed to Heavenly Father.
+                        Jesus’s prayer was so marvelous that it could not be written. It filled the Nephites with joy.
+                        After his prayer Jesus said the Nephites would be blessed because of their faith.
+                        Jesus became indignant. He told his followers:
+                        "Let the little children come to me, and do not hinder them, for the kingdom of God belongs to such as these. I tell you the truth, anyone who will not receive the kingdom of God like a little child will never enter it." (Luke 18:16-17, NIV)
+                        Then Jesus took the children and blessed each one. He prayed to Heavenly Father for them and wept again.
+                        Jesus told the Nephites to look at their children.
+                        As the people watched, angels came down from heaven and encircled the children. The children and the angels were surrounded by holy fire.
+                    </p>
+				</div>
+				<div class="box w-40 h-40 box-img-left box-b-r title-top">
+					<div class="img-cont img-8"></div>
+					<h3>
+                        Jesus Drives the Money Changers From the Temple
+						<a class="content-title">[more]</a>
+						<span>Jesus Christ clean the Temple</span>
+					</h3>
+					<p>
+                        Jesus Christ and his disciples journeyed to Jerusalem to celebrate the feast of Passover. They found the sacred city of God overflowing with thousands of pilgrims from all parts of the world.
+                        Entering the Temple, Jesus saw the money changers, along with merchants who were selling animals for sacrifice. Pilgrims carried coins from their home towns, most bearing the images of Roman emperors or Greek gods, which Temple authorities considered idolatrous.
+                        The high priest ordered that only Tyrian shekels would be accepted for the annual half-shekel Temple tax because they contained a higher percentage of silver, so the money changers exchanged unacceptable coins for these shekels. Of course, they extracted a profit, sometimes much more than the law allowed.
+                        Jesus was so filled with anger at the desecration of the holy place that he took some cords and wove them into a small whip. He ran about, knocking over the tables of the money changers, spilling coins on the ground. He drove the exchangers out of the area, along with the men selling pigeons and cattle. He also prevented people from using the court as a shortcut.
+                        As he cleansed the Temple of greed and profit, Jesus quoted from Isaiah 56:7: "My house shall be called a house of prayer, but you make it a den of robbers." (Matthew 21:13, ESV)
+                        The disciples and others present were in awe of Jesus' authority in God's sacred place. His followers remembered a passage from Psalm 69:9: "Zeal for your house will consume me." (John 2:17, ESV)
+                        The common people were impressed by Jesus' teaching, but the chief priests and scribes feared him because of his popularity. They began to plot a way to destroy Jesus.
+                    </p>
+				</div>
+				<div class="box w-30 h-40 box-b-r title-top">
+					<h3>
+                        Peter Denies Knowing Jesus
+						<a class="content-title">[more]</a>
+						<span>Jesus prognosticate Peter denies knowing Jesus</span>
+					</h3>
+					<p>
+                        Jesus Christ and his disciples had just finished the Last Supper.  Jesus revealed Judas Iscariot as the apostle who would betray him.
+                        Then Jesus made a disturbing prediction.  He said all his disciples would abandon him during his time of trial.  The impetuous Peter vowed that even if the others fell away, he would remain loyal to Jesus no matter what:
+                        "Lord, I am ready to go with you to prison and to death." (Luke 22:33, NIV)
+                        Jesus replied that before the rooster crowed, Peter would deny him three times.
+                        Later that night, a mob came and arrested Jesus at the Garden of Gethsemane.  Peter drew his sword and cut off the ear of Malchus, the high priest's servant.  Jesus told Peter to put his sword away.  Jesus was led away to the house of Joseph Caiaphas, the high priest.
+                        Following from a distance, Peter sneaked into the courtyard of Caiaphas.  A servant girl saw Peter warming himself by a fire and accused him of being with Jesus.  Peter quickly denied it.
+                        Later, Peter was again accused of being with Jesus.  He immediately denied it.  Finally, a third person said Peter's Galilean accent gave him away as a follower of the Nazarene.  Calling curses down upon himself, Peter vehemently denied that he knew Jesus.
+                        At that moment a rooster crowed.  When he heard it, Peter went out and wept bitterly.
+                        After Jesus' resurrection from the dead, Peter and six other disciples were fishing on the Sea of Galilee.  Jesus appeared to them on the shore, next to a charcoal fire.  Peter dove in the water, swimming to shore to meet him:
+                        When they had finished eating, Jesus said to Simon Peter, “Simon son of John, do you truly love me more than these?”
+                        “Yes, Lord,” he said, “you know that I love you.”
+                        Jesus said, “Feed my lambs.”
+                        Again Jesus said, “Simon son of John, do you truly love me?”
+                        He answered, “Yes, Lord, you know that I love you.”
+                        Jesus said, “Take care of my sheep.”
+                        The third time he said to him, “Simon son of John, do you love me?”
+                        Peter was hurt because Jesus asked him the third time, “Do you love me?” He said, “Lord, you know all things; you know that I love you.”
+                        Jesus said, “Feed my sheep. I tell you the truth, when you were younger you dressed yourself and went where you wanted; but when you are old you will stretch out your hands, and someone else will dress you and lead you where you do not want to go.” Jesus said this to indicate the kind of death by which Peter would glorify God. Then he said to him, “Follow me!”
+                    </p>
+				</div>
+				<div class="box w-30 h-40 title-top">
+					<h3>
+                        Resurrection of Jesus Christ
+						<a class="content-title">[more]</a>
+						<span>Resurrection of Jesus</span>
+					</h3>
+					<p>
+                        After Jesus was crucified, Joseph of Arimathea had Christ's body placed in his own tomb. A large stone covered the entrance and soldiers guarded the sealed tomb. On the third day, a Sunday, several women (Mary Magdalene, Mary the mother of James, Joanna and Salome are all mentioned in the gospel accounts) went to the tomb at dawn to anoint the body of Jesus.
+                        A violent earthquake took place as an angel from heaven rolled back the stone. The guards shook in fear as the angel, dressed in bright white, sat upon the stone. The angel announced to the women that Jesus who was crucified was no longer in the tomb, "He is risen, just as he said." Then he instructed the women to inspect the tomb and see for themselves. Next he told them to go inform the disciples.
+                        With a mixture of fear and joy they ran to obey the angel's command, but suddenly Jesus met them on their way. They fell at his feet and worshiped him. Jesus then said to them, "Do not be afraid. Go tell my brothers to go to Galilee. There they will see me."
+                        When the guards reported what had happened to the chief priests, they bribed the soldiers with a large sum of money, telling them to lie and say that the disciples had stolen the body in the night.
+                        After his resurrection, Jesus appeared to the women near the tomb and later at least twice to the disciples while they were gathered at a house in prayer. He visited two of the disciples on the road to Emmaus and he also appeared at the Sea of Galilee while several of the disciples were fishing.
+                    </p>
+<!--                    此处也可以添加图片-->
+                    <div class="img-cont-9 img-9"></div>
+				</div>
+			</div>
+			
+			<div class="f-page f-cover-back">
+			</div>
+		</div>
+	
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript">
+				
+			var $container 	= $( '#flip' ),
+				$pages		= $container.children().hide();
+			
+			Modernizr.load({
+				test: Modernizr.csstransforms3d && Modernizr.csstransitions,
+				yep : ['js/jquery.tmpl.min.js','js/jquery.history.js','js/core.string.js','js/jquery.touchSwipe-1.2.5.js','js/jquery.flips.js'],
+				nope: 'css/fallback.css',
+				callback : function( url, result, key ) {
+
+					if( url === 'css/fallback.css' ) {
+						$pages.show();
+					}
+					else if( url === 'js/jquery.flips.js' ) {
+						$container.flips();
+					}
+			
+				}
+			});
+				
+		</script>
+    </body>
+</html>
