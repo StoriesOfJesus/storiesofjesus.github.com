@@ -1,2 +1,1 @@
-# storiesofjesus.github.com
-首页
+# storiesofjesus.github.io
